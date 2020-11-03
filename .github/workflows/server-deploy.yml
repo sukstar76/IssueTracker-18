@@ -30,7 +30,10 @@ jobs:
         username: ${{ secrets.SERVER_NAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
-        script: |
-          cd IssueTracker-18/server
+        script:
+          cd IssueTracker-18
+          git pull origin deploy/test
+          cd server
           npm install
-          npm run dev
+          NODE_ENV=production pm2 reload ./app.js
+          
