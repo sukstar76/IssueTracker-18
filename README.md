@@ -24,3 +24,5 @@
 
 - [데일리 스크럼](https://github.com/boostcamp-2020/IssueTracker-18/wiki/%EB%8D%B0%EC%9D%BC%EB%A6%AC-%EC%8A%A4%ED%81%AC%EB%9F%BC)
 - [데일리 회고](https://github.com/boostcamp-2020/IssueTracker-18/wiki/%EB%8D%B0%EC%9D%BC%EB%A6%AC-%ED%9A%8C%EA%B3%A0)
+
+test
