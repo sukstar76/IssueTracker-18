@@ -31,6 +31,6 @@ jobs:
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
         script: |
-          git pull
+          cd IssueTracker-18/server
           npm install
           npm run dev
