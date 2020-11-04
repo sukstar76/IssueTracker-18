@@ -28,7 +28,7 @@ jobs:
         port: ${{ secrets.SERVER_PORT }}
         script: |
           cd IssueTracker-18 &&
-          git pull origin deploy/test &&
+          git pull
           cd server &&
           npm install &&
           NODE_ENV=production pm2 reload ./app.js
